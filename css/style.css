@@ -1,0 +1,34 @@
+.page_title{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+ }
+html,body{
+	width : 100%;
+	height : 100%;
+	}
+.main_container{
+    margin-top: 3rem;
+}
+
+.label_select{
+    color: #379392;
+    font-size: 13px;
+}
+
+.select_form{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.task_img{
+    width: 20%;
+}
